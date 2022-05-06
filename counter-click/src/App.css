@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  background-color: #1b1b32;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 15px;
+}
+
+.free-logo-conte{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.freecode-logo{
+  height: 100px;
+  animation-name: bouncingLogo;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bouncingLogo {
+  0% {transform: scale(1.0);}
+  50% {transform: scale(1.5);}
+  100% {transform: scale(1.0);}
+}
