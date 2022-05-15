@@ -1,11 +1,10 @@
 import { Card } from "./Card";
-import RickApi from '../Data/API-JSON.json'
 import '../StyleComponents/CardContent.css'
-export function CardContent() {
+export function CardContent(props) {
 
     return(
        <div className="Grid">
-           {RickApi.map((Characters)=>(
+           {props.fetch.map((Characters)=>(
                <Card key={Characters.id} Chars={Characters}/>
            ))}
        </div>

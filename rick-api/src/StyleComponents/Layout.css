@@ -30,3 +30,45 @@ body {
     background-color: #24282F;
 
 }
+
+.Pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.InfoChars{
+    color: white;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+.next{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+.prev{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+
+}

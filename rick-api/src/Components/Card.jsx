@@ -1,4 +1,5 @@
 import '../StyleComponents/Card.css';
+
 const isAlive  = function(valor){
     if (valor=="Alive" || valor == "unknown") {
         return true;
