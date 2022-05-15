@@ -1,0 +1,38 @@
+.Cards{
+    width: 550px;
+    background-color: #3C3E44;
+    margin: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+
+.img {
+    width: 40%;
+    transition: 0.2S linear;
+    z-index: 1;
+}
+
+
+.img:hover{
+    transform: scale(1.1);
+}
+
+.Content{
+    margin-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+
+}
+
+.Status-alive{
+    color: green;
+}
+
+.Status-dead{
+    color: red;
+}
+

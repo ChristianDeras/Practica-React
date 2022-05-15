@@ -19,14 +19,14 @@ body, html {
 .DerasLogo-cont{
   width: 100%;
   height: 50px;
-  margin: 8px;
+  margin: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .deras-logo {
-  height: 150px;
+  height: 100px;
 }
 
 .cont-calc{
