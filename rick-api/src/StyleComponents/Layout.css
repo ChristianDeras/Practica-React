@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Rick';
+    src: url(../fonts/get_schwifty.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,15 +11,15 @@
 .Header{
     width: 100%;
     height: 120px;
-    background-color: white;
-    color: black;
+    background-color: #24282F;
+    color: white;
     font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 48px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Rick', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .Content{
@@ -88,4 +93,10 @@ body {
         font-size: 28px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

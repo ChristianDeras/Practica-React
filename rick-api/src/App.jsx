@@ -1,5 +1,6 @@
 
 import "./StyleComponents/Layout.css";
+import "./StyleComponents/Spinner.css"
 import { useEffect, useState } from "react";
 import {CardContent} from './Components/CardContent'
 import { Stadistic } from "./Components/Stadistic";
@@ -20,7 +21,9 @@ function App() {
   if (isLoading) { 
     return (
       <div className="App">
-        <h1>Cargando...</h1>
+        <div className="center">
+          <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
       </div>
     );
   }
