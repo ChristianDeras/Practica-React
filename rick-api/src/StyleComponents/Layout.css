@@ -83,15 +83,15 @@ body {
     .Header{
         width: 100%;
         height: 120px;
-        background-color: white;
-        color: black;
+        background-color: #24282F;
+        color:#039EB2;
         font-weight: bold;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
         font-size: 28px;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-family: 'Rick', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
 
