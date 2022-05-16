@@ -29,7 +29,7 @@ function App() {
       <div className='Header'>
         Wellcome to the Rick and Morty API
       </div>
-        <CardContent fetch={data}/>
+        <CardContent fetch={data} className='headline' />
        <div className="Pagination">
          <Stadistic infoData={infoCharacter} currentpage={page}/>
           
